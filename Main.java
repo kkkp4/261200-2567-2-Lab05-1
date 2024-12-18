@@ -4,6 +4,9 @@ public class Main {
         User john = new User("john", 1954, 2, 18);
         john.displayInfo();
         System.out.println();
+        User Sylvester = new User("Sylvester", 1946, 7, 6);
+        Sylvester.displayInfo();
+        System.out.println();
         Admin nicolas = new Admin("nicolas", 1964, 1, 7);
         nicolas.displayInfo();
         System.out.println();
